@@ -274,7 +274,7 @@ print('TV Shows in cluster 0')
 print(ratings[ratings["label"]==0]["Title"].values)
 
 
-# In[41]:
+
 
 
 print('TV Shows in cluster 0')
@@ -292,7 +292,7 @@ for title in ratings[ratings["label"] == 1]["Title"].values:
     print(title)
 
 
-# In[43]:
+
 
 
 print('TV Shows in cluster 2')
